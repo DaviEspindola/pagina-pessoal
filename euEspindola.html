@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espindola</title>
+</head>
+<body style="position: relative;">
+    <style>
+     
+     html, body, div, span, applet, object, iframe,
+     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+     a, abbr, acronym, address, big, cite, code,
+     del, dfn, em, img, ins, kbd, q, s, samp,
+     small, strike, strong, sub, sup, tt, var,
+     b, u, i, center,
+     dl, dt, dd, ol, ul, li,
+     fieldset, form, label, legend,
+     table, caption, tbody, tfoot, thead, tr, th, td,
+     article, aside, canvas, details, embed, 
+     figure, figcaption, footer, header, hgroup, 
+     menu, nav, output, ruby, section, summary,
+     time, mark, audio, video {
+         margin: 0;
+         padding: 0;
+         border: 0;
+         font-size: 100%;
+         font: inherit;
+         vertical-align: baseline;
+     }
+     /* HTML5 display-role reset for older browsers */
+     article, aside, details, figcaption, figure, 
+     footer, header, hgroup, menu, nav, section {
+         display: block;
+     }
+     body {
+         line-height: 1;
+     }
+     ol, ul {
+         list-style: none;
+     }
+     blockquote, q {
+         quotes: none;
+     }
+     blockquote:before, blockquote:after,
+     q:before, q:after {
+         content: '';
+         content: none;
+     }
+     table {
+         border-collapse: collapse;
+         border-spacing: 0;
+     }
+    #eu {
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color:green;
+        margin-top: 0;
+        width: 100%;
+        height: 75px;
+    }
+    #container{
+        background-color:greenyellow ;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+    #subtitulo1{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        width: 60%;
+    }
+     #container2{
+        background-color: greenyellow ;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+     }
+     #pers{
+        font-size: 18pt;
+       width: 70%;
+     }
+     #titulo{
+        font-size: 30pt;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color:green;
+        margin-top: 0;
+        width: 100%;
+        height: 75px;
+    }
+    #foto1{
+        height: 300px; 
+        width: 30%;
+        border: 3px solid green;
+        border-radius: 10px;
+    }
+    #container4{
+        background-color: greenyellow;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    #hist{
+        font-size: 18pt;
+        width: 100%;
+    }
+    #foto2{
+        height: 300px;
+        width: 27%;
+        border: 3px solid green;
+        border-radius: 10px;
+    }
+    #container5{
+        height: 100px;
+        background-color: green;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #subtitulo2{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        width: 60%;
+    }
+    #container3{
+        background-color:greenyellow ;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+    #butao{
+        height: 30px;
+        width: 200px;
+        border-radius: 100px;
+        background-color: greenyellow;
+    }
+    #modal{
+        display: none;
+        width: 550px;
+        height: 550px;
+        position: absolute;
+        top: 50%;
+        background-color: rgb(255, 255, 255) ;
+        left: 50%;
+        transform:translate(-50%,-50%) ;  
+        border-radius: 7px ;
+    }
+    #lista{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    </style>
+    <div>
+        <h1 id="eu"><br>Hi meu nome é Espindóla</h1>
+    </div>
+    <div id="container">
+        <h2 id="subtitulo1">Um pouco sobre minha personalidade:</h2>
+    </div>
+    <div id="container2">
+        <h2 id="pers">
+            Sou um aborrescente de 14 anos, amo jogar basquete e gosto de jogar futebol, gosto de muito de matemática, e "amo inglês" só que longe de mim, lido bem mal sob pressão em geral, 
+            sou um bom aluno, gosto de ajudar os outros e de espalhar o evangelho, sou bem estressado de vez enquando, e se me irrito fico fora de si, 
+            mas tento cada dia ser melhor, torço pro melhor time do Brasil, o Inter que não me trás "nenhuma raiva", no basquete torço para o Milwaukee Bucks, e tenho como meus jogadores
+             favoritos Devin Booker e Westbrook, no futebol meu jogador favorito é Gabriel Martinelli, tenho como maior sonho da minha vida ser pai(claro que um dia muito distante), adoro 
+             ouvir músicas para me acalmar, meus músicos favoritos são: Pregador Luo, Ton Carfi, Lookas, Nesk Only, Thaiane Seghetto, Orelhv e etc..., gosto de acordar de cedo e fazer meu
+             devocional, meus livros favoritos de bíblia são Romanos, Tito,1 Timóteo e Tiago, gosto de filmes de ação, aventura,
+             ficção científica, gosto muito de jogar videogame, principalmente jogar Fifa e NBA, mas também jogo fortnite, estou no momento fazendo 2 cursos 1 de 
+             programação e outro de elétrica.
+        </h2>
+        <img id="foto1" src="https://staticg.sportskeeda.com/editor/2023/04/f85de-16824911762052.jpeg" alt="">
+    </div>
+    <div>
+        <h1 id="titulo">Minha História</h1>
+    </div>    
+    <div id="container3">
+        <h2 id="subtitulo2">Minha Vida:</h2>
+    </div>
+    <div id="container4">
+        <p id="hist">Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui num significa nadis i pareci latim. A ordem dos tratores não altera o pão duris. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Morbi viverra placerat justo, vel pharetra turpis.
+
+            Atirei o pau no gatis, per gatis num morreus. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Casamentiss faiz malandris se pirulitá.
+            
+            Negão é teu passadis, eu sou faxa pretis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. In elementis mé pra quem é amistosis quis leo. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+            
+            Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Detraxit consequat et quo num tendi nada.
+            
+            Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Negão é teu passadis, eu sou faxa pretis. Quem manda na minha terra sou euzis! Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+        </p>
+          <img id="foto2" src="./WhatsApp Image 2024-08-24 at 08.37.13.jpeg" alt="gaby">
+        </div>
+        <div id="container5">
+            <button id="butao" onclick="abrirmodal()" >Atividades</button>
+        </div>
+        <div id="modal">
+           <br><h1 id="lista"> Lista de exercícios</h1><br><br>
+           <a href="atv01.html">atv01.html</a><br>
+           <a href="atv02.html">atv02.html</a><br>
+           <a href="atv03.html">atv03.html</a><br>
+           <a href="atv04.html">atv04.html</a><br>
+           <a href="atv05.html">atv05.html</a><br>
+           <a href="atv06.html">atv06.html</a><br>
+           <a href="atv07.html">atv07.html</a><br>
+           <a href="atv13.html">atv13.html</a><br>
+           <a href="atv504.html">atv504.html</a><br>
+           <a href="ex02.html">ex02.html</a><br>
+           <a href="ex03.html">ex03.html</a><br>
+           <a href="ex04.html">ex04.html</a><br>
+           <a href="ex05.html">ex05.html</a><br>
+           <a href="ex06.html">ex06.html</a><br>
+           <a href="ex07.js">ex07.js</a><br>
+           <a href="ex08.html">ex08.html</a><br>
+           <a href="ex9.html">ex9.html</a><br>
+           <a href="nomesaleatorios.html">nomesaleatorios.html</a><br>
+           <a href="Palíndromo.html">Palíndromo.html</a><br>
+           <a href="site01.html">site01.html</a><br>
+           <a href="site02.html">site02.html</a><br>
+           <a href="teste01.html">teste01.html</a><br>
+           <a href="teste02.html">teste02.html</a><br>
+        </div>
+        <script>
+            function abrirmodal(){
+                let modal = document.getElementById('modal');
+
+                if( modal.style.display == 'none' ){
+
+                    modal.style.display = 'block';
+                }else{
+
+                    modal.style.display = 'none';
+                }
+            }
+        </script>
+</body>
+
+</html>
