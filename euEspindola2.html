@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espindola</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
-    ">
+    <title>Espindola2</title>
 </head>
 <body style="position: relative;">
     <style>
@@ -62,7 +60,6 @@
         margin-top: 0;
         width: 100%;
         height: 75px;
-        color: rgb(0, 0, 0);
     }
     #container{
         background-color:greenyellow ;
@@ -86,7 +83,6 @@
      #pers{
         font-size: 18pt;
        width: 70%;
-       color: rgb(0, 0, 0);
      }
      #titulo{
         font-size: 30pt;
@@ -97,7 +93,6 @@
         margin-top: 0;
         width: 100%;
         height: 75px;
-        color: rgb(0, 0, 0);
     }
     #foto1{
         height: 300px; 
@@ -115,7 +110,6 @@
     #hist{
         font-size: 18pt;
         width: 100%;
-        color: rgb(0, 0, 0);
     }
     #foto2{
         height: 300px;
@@ -143,16 +137,11 @@
         display: flex;
         justify-content: left;
     }
-    #butao1{
+    #butao{
         height: 30px;
         width: 200px;
         border-radius: 100px;
         background-color: greenyellow;
-    }
-    #butao2{
-        background-color: greenyellow;
-        border: seagreen;
-        height: 1%;
     }
     #modal{
         display: none;
@@ -171,7 +160,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: rgb(0, 0, 0);
     }
 #atividades{
     align-items: center;
@@ -180,16 +168,60 @@
     height: 450px;
     flex-wrap: wrap;
 }
-.corlista{
-    color: rgb(0, 0, 0);
+#soma{
+    color: black;
 }
-#x{
-    color: rgb(0, 0, 0);
+#fahreint{
+    color: black;
+}
+#nome{
+    color: black;
+}
+#par{
+    color: black;
+}
+#palindromo{
+    color: black;
+}
+#quadrado{
+    color: black;
+}
+#ex9{
+    color: black;
+}
+#ex04{
+    color: black;
+}
+#positivo{
+    color: black;
+}
+#maiornumeral{
+    color: black;
+}
+#atv504{
+    color: black;
+}
+#ex05{
+    color: black;
+}
+#ex06{
+    color: black;
+}
+#ex08{
+    color: black;
+}
+#site1{
+    color: black;
+}
+#site2{
+    color: black;
+}
+#dom{
+    color: black;
 }
     </style>
     <div>
         <h1 id="eu"><br>Hi meu nome é Espindóla</h1>
-    
     </div>
     <div id="container">
         <h2 id="subtitulo1">Um pouco sobre minha personalidade:</h2>
@@ -205,11 +237,11 @@
              ficção científica, gosto muito de jogar videogame, principalmente jogar Fifa, NBA e Minecraft, estou no momento fazendo 2 cursos 1 de 
              programação e outro de elétrica.
         </h2>
-        <button id="butao2" onclick="redirect()"></button>
         <img id="foto1" src="https://staticg.sportskeeda.com/editor/2023/04/f85de-16824911762052.jpeg" alt="">
     </div>
     <div>
         <h1 id="titulo">Minha História</h1>
+    </div>    
     <div id="container3">
         <h2 id="subtitulo2">Minha Vida:</h2>
     </div>
@@ -227,34 +259,31 @@
           <img id="foto2" src="./WhatsApp Image 2024-08-24 at 08.37.13.jpeg" alt="gaby">
         </div>
         <div id="container5">
-            <div>
-                <button id="butao1" onclick="abrirmodal()" >Atividades</button>
+            <button id="butao" onclick="abrirmodal()" >Atividades</button>
         </div>
         <div id="modal">
-            <button id="x" onclick="abrirmodal()" type="button" class="btn-close" aria-label="Close"></button>
            <br><h1 id="lista"> Lista de exercícios</h1><br><br>
            <div id="atividades">
-           <a class="corlista"  href="soma.html">Soma</a><br>
-           <a class="corlista" href="fahreint.html">Fahreint</a><br>
-           <a class="corlista" href="quadrado.html">Quadrado</a><br>
-           <a class="corlista" href="Par.html">Par?Ímpar?</a><br>
-           <a class="corlista" href="maiornumeral.html">MaiorNúmero</a><br>
-           <a class="corlista" href="positivo.html">Positivo?Negativo?</a><br>
-           <a class="corlista" href="atv504.html">atv504</a><br>
-           <a class="corlista" href="nome.html">Monte um Nome</a><br>
-           <a class="corlista" href="ex04.html">ex04.html</a><br>
-           <a class="corlista" href="ex05.html">ex05.html</a><br>
-           <a class="corlista" href="ex06.html">ex06.html</a><br>
-           <a class="corlista" href="maiornumeral2.html">Maior Número2.0</a><br>
-           <a class="corlista" href="ex9.html">ex9.html</a><br>
-           <a class="corlista" href="Palíndromo.html">Palíndromo</a><br>
-           <a class="corlista" href="site01.html">site01.html</a><br>
-           <a class="corlista" href="site02.html">site02.html</a><br>
-           <a class="corlista" href="manipulacao.html">Aleatoriazador</a><br>
+           <a id="soma"  href="soma.html">Soma</a><br>
+           <a id="fahreint" href="fahreint.html">Fahreint</a><br>
+           <a id="quadrado" href="quadrado.html">Quadrado</a><br>
+           <a id="par" href="Par.html">Par?Ímpar?</a><br>
+           <a id="maiornumeral" href="maiornumeral.html">MaiorNúmero</a><br>
+           <a id="positivo" href="positivo.html">Positivo?Negativo?</a><br>
+           <a id="atv504" href="atv504.html">atv504</a><br>
+           <a id="nome" href="nome.html">Monte um Nome</a><br>
+           <a id="ex04" href="ex04.html">ex04.html</a><br>
+           <a id="ex05" href="ex05.html">ex05.html</a><br>
+           <a id="ex06" href="ex06.html">ex06.html</a><br>
+           <a id="ex08" href="ex08.html">ex08.html</a><br>
+           <a id="ex9" href="ex9.html">ex9.html</a><br>
+           <a id="palindromo" href="Palíndromo.html">Palíndromo</a><br>
+           <a id="site1" href="site01.html">site01.html</a><br>
+           <a id="site2" href="site02.html">site02.html</a><br>
+           <a id="dom" href="manipulacao.html">Aleatoriazador.html</a><br>
         </div>
         </div>
         <script>
-
             function abrirmodal(){
                 let modal = document.getElementById('modal');
 
@@ -266,12 +295,7 @@
                     modal.style.display = 'none';
                 }
             }
-
-            function redirect(){
-                window.location.href = "pagina secreta.html";
-            }
         </script>
-         <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
