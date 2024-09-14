@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação da Dom</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="nome">Davi Henrique Espindola</h1>
+<button id="botao" onclick="Mudardecor()">Mudar de Cor</button>
+    </div>
+<script>
+setInterval(function Mudardecor(){
+
+    let nome = document.getElementById("nome"); 
+
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+
+    nome.style.fontSize = Math.floor(Math.random()*500)+'pt';
+
+    nome.style.color = color;
+
+    }
+,3000);
+
+</script>
+<style>
+    #nome{
+        font-size: 30px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<a  href="euEspindola.html">Site Espindola</a><br>
+</body>
+</html>
